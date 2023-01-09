@@ -1,0 +1,17 @@
+#this is private folser
+bin/
+
+obj/
+
+Properties/
+
+#this is private file
+*.Designer.cs
+
+*.Config
+
+*.resx
+
+*.csproj
+
+Program.cs
