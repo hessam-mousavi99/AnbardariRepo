@@ -46,6 +46,8 @@ namespace Anbardari
         string Tel;
         private void frmFactorForosh_Load(object sender, EventArgs e)
         {
+            //edite
+
             InputLanguage.CurrentInputLanguage = InputLanguage.FromCulture(System.Globalization.CultureInfo.CreateSpecificCulture("fa-IR"));
             System.Globalization.PersianCalendar p = new System.Globalization.PersianCalendar();
             txtTarikhSabt.Text = p.GetYear(DateTime.Now).ToString() + p.GetMonth(DateTime.Now).ToString("0#") + p.GetDayOfYear(DateTime.Now).ToString("0#");
